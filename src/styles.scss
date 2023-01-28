@@ -2,8 +2,7 @@ body {
   background-color: rgb(255, 225, 127);
 }
 .car {
-  width: 50px;
-  height: 50px;
-  background-size: contain;
-  background-image: url("./assets/car.svg");
+  height: 100px;
+  width: 100px;
+  background-size: cover;
 }

@@ -15,8 +15,13 @@
 </head>
 
 <body>
-  <!-- <object id="color-change-svg" data="./assets/car.svg" type="image/svg+xml"></object> -->
-
+  <form class="garage__form" action="">
+    <label for="car-model">Car model</label>
+    <input type="search" id="car-model" required>
+    <label for="car-color">Car color</label>
+    <input type="color" name="car-color" id="car-color" required>
+    <input type="submit" value="Implement" class="garage__implement-button" onclick="event.preventDefault()">
+  </form>
 </body>
 
 </html>
